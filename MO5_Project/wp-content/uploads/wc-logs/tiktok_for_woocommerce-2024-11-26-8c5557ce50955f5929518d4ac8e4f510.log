@@ -1,0 +1,34 @@
+2024-11-26T02:14:51+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 20241126021450461E90F8533B3721DBB1,20241126021450461E90F8533B3721DBB1
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 015e405dd4802c61fd26d4b5d9ab2bc55a21c5c4c5485ac0a48962bc8afa15de9d07fac99cbb89d5f49c65ff55cf6112d1cb3daa8e07f0129d560c0d9be93afb4136117b671354a8e1f124939850a499f216fb5494ecdb9c961c34ecb4c59645690b70f2dbba398dc827b547da676981cc
+x-tt-trace-id: 00-241126021450461E90F8533B3721DBB1-425609DD60E1FC9D-00
+Server: TLB
+Content-Encoding: gzip
+Content-Length: 211
+X-Origin-Response-Time: 91,23.54.158.91
+X-Akamai-Request-ID: 371cbaf5.f64315e9
+Date: Tue, 26 Nov 2024 02:14:51 GMT
+X-Cache: TCP_MISS from a92-123-132-14.deploy.akamaitechnologies.com (AkamaiGHost/11.7.1-5d2a058efeda81c5505a169a6e16c38e) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-54-158-91.deploy.akamaitechnologies.com (AkamaiGHost/11.7.1-5d2a058efeda81c5505a169a6e16c38e) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=163, origin; dur=90
+Server-Timing: inner; dur=86
+X-Parent-Response-Time: 251,92.123.132.14
+
+{"code":0,"msg":"ok","data":{"app_id":"7441405752809357313","app_secret":"2c2fa1973184c9e3bfce3c0710bd5e5342a48c66","redirect_uri":"http:\/\/bearbearnecessities.rf.gd\/wp-admin\/","external_data_key":"cba0f415-78d2-4cc4-b2b8-edb0d9ce24d7"}}
+2024-11-26T03:00:22+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-11-26T03:00:22+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-11-26T03:10:47+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-11-26T03:10:47+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-11-26T04:20:31+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-11-26T04:20:31+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-11-26T04:23:14+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-11-26T04:23:14+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2024-11-26T04:23:23+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-11-26T04:23:23+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
